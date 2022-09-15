@@ -1,0 +1,108 @@
+#sort{
+    margin-left: 220px;
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    color: black;
+    font-size:16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#container{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    width: 70%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
+#container>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* box-sizing: border-box; */
+    position: relative;
+}
+#container img{
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: block;
+    margin: auto;
+}
+#logo{
+    background-color: #DD0285;
+    padding: 15px 10px 15px 10px;
+    border-radius: 70%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+}
+#namebox{
+    height: 60px;
+    /* border: 1px solid teal; */
+    font-size: 14px;
+    text-align: center;
+}
+#pricebox{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid brown; */
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+strike{
+    
+    color: rgb(131, 126, 126);
+    font-weight: 600;
+}
+strike+p{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #DD0285;
+}
+#pricebox>p:nth-child(3){
+    font-weight: bold;
+    
+    color: green;
+}
+#cartbox{
+    /* border: 1px solid blue; */
+    /* position: absolute; */
+    bottom: 10px;
+    display: flex;
+    width: 200px;
+    margin: auto;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+#cart{
+    display: block;
+    margin: auto;
+    background-color: #DD0285;
+    border: 0px;
+    /* padding: 5px 15px 5px 20px; */
+    color: white;
+    height: 30px;
+    width: 150px;
+    
+}
+#wish{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    
+}
+
